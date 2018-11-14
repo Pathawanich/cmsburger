@@ -1,0 +1,7 @@
+2018-10-24T22:41:37+00:00 CRITICAL Uncaught Error: Class 'Puc_v4p4_Plugin_Info' not found in C:\Bitnami\wordpress-4.9.8-0\apps\wordpress\htdocs\wp-content\plugins\jft-assitant-plugin\vendor\yahnis-elsts\plugin-update-checker\Puc\v4p4\Vcs\PluginUpdateChecker.php:44
+Stack trace:
+#0 C:\Bitnami\wordpress-4.9.8-0\apps\wordpress\htdocs\wp-content\plugins\jft-assitant-plugin\vendor\yahnis-elsts\plugin-update-checker\Puc\v4p4\Plugin\UpdateChecker.php(163): Puc_v4p4_Vcs_PluginUpdateChecker->requestInfo(Array)
+#1 C:\Bitnami\wordpress-4.9.8-0\apps\wordpress\htdocs\wp-content\plugins\jft-assitant-plugin\vendor\yahnis-elsts\plugin-update-checker\Puc\v4p4\UpdateChecker.php(231): Puc_v4p4_Plugin_UpdateChecker->requestUpdate()
+#2 C:\Bitnami\wordpress-4.9.8-0\apps\wordpress\htdocs\wp-content\plugins\jft-assitant-plugin\vendor\yahnis-elsts\plugin-update-checker\Puc\v4p4\Scheduler.php(109): Puc_v4p4_UpdateChecker->checkForUpdates()
+#3 C:\Bitnami\wordpress-4.9.8-0\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(284): Puc_v4p4_Scheduler->maybeCheckForUpdates() in C:\Bitnami\wordpress-4.9.8-0\apps\wordpress\htdocs\wp-content\plugins\jft-assitant-plugin\vendor\yahnis-elsts\plugin-update-checker\Puc\v4p4\Vcs\PluginUpdateChecker.php on line 44
+
