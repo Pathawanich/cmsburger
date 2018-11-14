@@ -81,8 +81,8 @@ define('WP_DEBUG', true);
 set_time_limit(600);
 
 
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/cmsprosjekt');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/cmsprosjekt');
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
 
 /* That's all, stop editing! Happy blogging. */
 
