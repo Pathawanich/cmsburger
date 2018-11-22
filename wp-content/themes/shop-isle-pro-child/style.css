@@ -1,0 +1,137 @@
+/*
+ Theme Name:   shop-isle-pro Child
+ Theme URI:    N/A
+ Description:  Shop Isle Pro Child Theme
+ Author:       Andreas Græsmo
+ Author URI:   http://graesmo.no
+ Template:     shop-isle-pro
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  shop-isle-pro-child
+*/
+
+.comment-respond{
+	display:none;
+}
+
+.post-meta{
+	display:none;
+}
+
+.btn-b{
+	display:none;
+}
+
+.products.columns-4{
+	padding:0;
+}
+
+.mPS2id-highlight{
+	background-color: #fff;
+	color: #000 !important;
+}
+
+.coupon{
+	display:none !important;
+}
+
+.header-search{
+	display: none;
+}
+
+.col-sm-10{
+	display:none;
+}
+
+.bg-dark{
+	display:none;
+}
+
+.elementor-inner{
+	width:1150px;
+}
+
+#menu-item-503{
+	
+	border-style: solid;
+}
+
+#menu-item-504{
+	
+	border-style: solid;
+}
+
+#menu-item-499{
+	
+	border-style: solid;
+}
+
+#menu-item-500{
+	
+	border-style: solid;
+}
+
+#menu-item-505{
+	
+	border-style: solid;
+}
+
+#menu-item-506{
+
+	border-style: solid;
+}
+
+.navbar-cart-inner{
+	right: 300px;
+}
+
+#menu-item-699{
+	font-style: italic;
+	text-decoration: underline;
+	left: 200px;
+}
+
+#menu-item-588{
+	display:none;
+}
+
+.elementor-text-editor{
+	font-size:20px;
+}
+
+#menu-item-727{
+	font-style: italic;
+	text-decoration: underline;
+	left: 200px;
+}
+
+.navbar-fixed-top{
+	color:grey;
+}
+
+.cart-item-number {
+  background: rgba(0,0,0,0) !important;
+}
+
+.wc-proceed-to-checkout .wc-forward {
+	background-color: rgba(17, 17, 17, 0.8)!important;
+	color: #fff!important;
+}
+
+.mini-cart-item a{
+  color: #fff;
+}
+
+.woocommerce-mini-cart-item a{
+	color: #fff !important;
+}
+
+.mini_cart_item .quantity, .woocommerce-mini-cart-item.mini_cart_item .woocommerce-Price-amount.amount, .woocommerce-mini-cart-item.mini_cart_item .woocommerce-Price-amount.amount span, .woocommerce-mini-cart__total.total {
+  color: #fff!important;
+}
+
+.product-price .woocommerce-Price-amount.amount, .product-price .woocommerce-Price-amount.amount span {
+  color: #000!important;
+}
