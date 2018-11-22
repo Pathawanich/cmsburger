@@ -33,6 +33,11 @@
 	color: #000 !important;
 }
 
+.mPS2id-clicked.mPS2id-highlight {
+	background-color: #fff!important;
+	color: #000 !important;	
+}
+
 .coupon{
 	display:none !important;
 }
@@ -53,44 +58,68 @@
 	width:1150px;
 }
 
+
 #menu-item-503{
-	
+	top:10px;
+	right:100px;
+	border: 0.5px;
 	border-style: solid;
+	border-color: white;
 }
 
 #menu-item-504{
-	
+	top:10px;
+	right:100px;
+	border: 0.5px;
+	border-color: white;
 	border-style: solid;
 }
 
 #menu-item-499{
-	
+	top:10px;
+	right:100px;
+	border: 0.5px;
+	border-color: white;
 	border-style: solid;
 }
 
 #menu-item-500{
-	
+	top:10px;
+	right:100px;
+	border: 0.5px;
+	border-color: white;
 	border-style: solid;
 }
 
 #menu-item-505{
-	
+	top:10px;
+	right:100px;
+	border: 0.5px;
+	border-color: white;
 	border-style: solid;
 }
 
 #menu-item-506{
-
+	top:10px;
+	right:100px;
+	border: 0.5px;
+  border-color: white;
 	border-style: solid;
 }
 
-.navbar-cart-inner{
-	right: 300px;
+.menu-item-966{
+	top:10px;
+	right:100px;
+	border: 0.5px;
+	border-color: white;
+	border-style: solid;
 }
 
 #menu-item-699{
+	top: 10px;
 	font-style: italic;
 	text-decoration: underline;
-	left: 200px;
+	left: 00px;
 }
 
 #menu-item-588{
@@ -105,14 +134,38 @@
 	font-style: italic;
 	text-decoration: underline;
 	left: 200px;
+	bottom:16px;
+}
+
+#menu-item-739{
+	font-style: italic;
+	text-decoration: underline;
+	left: 200px;
+}
+
+.navbar-cart{
+	display:none;
 }
 
 .navbar-fixed-top{
 	color:grey;
 }
 
-.cart-item-number {
+.icon-basket{
+	color: white !important;
+	font-size: 25px !important;
+}
+
+.cart-item-number{
   background: rgba(0,0,0,0) !important;
+	font-size: 11px !important;
+	top: 4px !important;
+	left: 6px !important;
+}
+
+.wc-forward{
+background-color: white !important;
+	color: black !important;
 }
 
 .wc-proceed-to-checkout .wc-forward {
@@ -134,4 +187,16 @@
 
 .product-price .woocommerce-Price-amount.amount, .product-price .woocommerce-Price-amount.amount span {
   color: #000!important;
+}
+
+.widget_shopping_cart_content {
+  overflow-y: scroll;
+  max-height:500px;
+}
+
+@media(min-width: 770px) {
+	.navbar-cart-inner{
+		right: 220px;
+		bottom:3px;
+	}
 }
